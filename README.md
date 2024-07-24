@@ -1,0 +1,1 @@
+This project simulates Lamport's mutual exclusion algorithm, including handling fail-stop failures. The application consists of ten processes sharing a critical resource, each waiting a random delay between 1 to 10 seconds before entering the critical section, which lasts for a random duration between 1 to 2 seconds. Processes can fail during the initial random delay.
